@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./image/background.jpg');
+    background-size:contain;
+    font-family: 'Kanit', sans-serif;
+    padding:50px 0;
+}
+.avt{
+    background-color: white;
+    width:400px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.logo{
+    position: relative;
+    bottom:50px;
+    width: 200px;
+    left:100px;
+}
+.name{
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+.vaitro{
+    color:white;
+    font-size: 20px;
+    margin-top:10px;
+}
+.information{
+    background-color: white;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.information p{
+    padding:20px 50px;
+    font-size: 20px;
+}
+p:first-child{
+    border-top: rgb(52, 52, 52) solid 15px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    border-top: black solid 3px;
+    padding-top:20px;
+}
+.contact a{
+    color:black;
+    margin:0 10px;
+}
